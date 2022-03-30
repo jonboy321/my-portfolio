@@ -112,7 +112,14 @@ h2 {
     font-size: 25pt;
     line-height: 15pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
-footer {
-    float: bottom
+.button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffff;
+    color: black;
+    opacity: 85%;
+    border-radius: 10pt;
 }
