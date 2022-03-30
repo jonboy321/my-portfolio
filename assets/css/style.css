@@ -49,7 +49,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffff;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 nav a::before {
@@ -77,10 +77,16 @@ nav a:hover {
 section {
     background-color: gray;
     color: #ffff;
+
     display: block;
     float: right;
     width: 75%;
     margin-top: 15pt;
+
+    border-radius: 30pt;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
 img {
@@ -88,18 +94,25 @@ img {
     margin-right: 10pt;
     margin-left: 20pt;
     float: right;
+    display: 
+    position: relative;
+    border-radius: 20pt;
 }
 
 p {
     width: 75%;
     display: flex;;
     font-size: 16pt;
+    margin-left: 25pt;
 }
 
 h2 {
-    display: flex;
-}
+    margin-left: 25pt;
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    line-height: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
-.box {
-    
+footer {
+    float: bottom
 }
